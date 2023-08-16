@@ -1,4 +1,13 @@
-div {
-  display: flex;
-  align-content: end;
+body {
+  background-color: antiquewhite;
+  color: darkgoldenrod;
+  text-align: right;
+}
+p {
+  text-align: center;
+}
+button {
+  border: 3px solid darkgoldenrod;
+  border-radius: 20px;
+  height: 30px;
 }
