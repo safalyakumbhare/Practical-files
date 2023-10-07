@@ -1,11 +1,5 @@
-<!-- This Program is Under Development Please Do Not refer This Code -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Simple Calculator</title>
-    <script>
-      
-   var n1 = prompt(parseInt("Enter the first number "));
+// This Program is Under Development Please Do Not refer This Code
+var n1 = prompt(parseInt("Enter the first number "));
     
 var op = prompt("Enter the Opertion ");
     
@@ -37,6 +31,3 @@ var result;
     default:
         break;
     }
-    </script>
-  </head>
-</html>
