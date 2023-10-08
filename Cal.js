@@ -3,7 +3,7 @@ var n1 = prompt(parseInt("Enter the first number "));
     
 var op = prompt("Enter the Opertion ");
     
-var n2 = prompt(parseInt("Enter the Second Number"))
+var n2 = prompt(parseInt("Enter the Second Number"));
    
 var result;
     switch (op)

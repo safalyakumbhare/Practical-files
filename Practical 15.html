@@ -5,33 +5,33 @@
     <title>Simple Calculator</title>
     <script>
       
-   var n1 = prompt(parseInt("Enter the first number "));
+   var n1 = parseInt(prompt("Enter The First Number"));
     
 var op = prompt("Enter the Opertion ");
     
-var n2 = prompt(parseInt("Enter the Second Number"))
+var n2 = parseInt(prompt("Enter the Second Number"));
    
-var result;
+var result=parseInt;
     switch (op)
     {
     case '+':
         result = n1+n2;
-        cout<<"result = "<<result;
+        document.write("result = ",result);
         break;
 
         case '-':
         result = n1-n2;
-        cout<<"result = "<<result;
+        document.write("result = ",result);
         break;
 
         case '*':
         result = n1*n2;
-        cout<<"result = "<<result;
+        document.write("result = ",result);
         break;
 
         case '/':
         result = n1/n2;
-        cout<<"result = "<<result;
+        document.write("result = ",result);
         
         break;
     default:
