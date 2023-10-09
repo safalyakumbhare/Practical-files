@@ -4,12 +4,14 @@
   </head>
   <body>
     <script>
-      function convertMinutesToHoursAndMinutes(minutes) {
+      function convert(minutes) {
         var hours = Math.floor(minutes / 60);
-        var remainingMinutes = minutes % 60;
-        return hours + " hour(s) and " + remainingMinutes + " minute(s)";
+        var Minutes = minutes % 60;
+        return (
+          minutes + " Minutes : " + hours + " hours and " + Minutes + " minutes"
+        );
       }
-      document.write(convertMinutesToHoursAndMinutes(90));
+      document.write(convert(prompt("Enter the Minutes")));
     </script>
   </body>
 </html>
