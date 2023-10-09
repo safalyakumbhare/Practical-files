@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Practical 19</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          var name = document.getElementById("name").value;
+          var email = document.getElementById("email").value;
+
+          document.write("Name: " + name);
+          document.write("<br>");
+          document.write("Email: " + email);
+        });
+    </script>
+  </body>
+</html>
