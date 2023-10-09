@@ -2,39 +2,37 @@
   <head>
     <title>Practical 15</title>
     <script>
-      
-   var n1 = parseInt(prompt("Enter The First Number"));
-    
-var op = prompt("Enter the Opertion ");
-    
-var n2 = parseInt(prompt("Enter the Second Number"));
-   
-var result=parseInt;
-    switch (op)
-    {
-    case '+':
-        result = n1+n2;
-        document.write(n1," ",op," ",n2," = ",result);
-        break;
+      var n1 = parseInt(prompt("Enter The First Number"));
 
-        case '-':
-        result = n1-n2;
-        document.write(n1," ",op," ",n2," = ",result);
-        break;
+      var op = prompt("Enter the Operation ");
 
-        case '*':
-        result = n1*n2;
-        document.write(n1," ",op," ",n2," = ",result);
-        break;
+      var n2 = parseInt(prompt("Enter the Second Number"));
 
-        case '/':
-        result = n1/n2;
-        document.write(n1," ",op," ",n2," = ",result);
-        
-        break;
-    default:
-        break;
-    }
+      var result = parseInt;
+      switch (op) {
+        case "+":
+          result = n1 + n2;
+          document.write(n1, " ", op, " ", n2, " = ", result);
+          break;
+
+        case "-":
+          result = n1 - n2;
+          document.write(n1, " ", op, " ", n2, " = ", result);
+          break;
+
+        case "*":
+          result = n1 * n2;
+          document.write(n1, " ", op, " ", n2, " = ", result);
+          break;
+
+        case "/":
+          result = n1 / n2;
+          document.write(n1, " ", op, " ", n2, " = ", result);
+
+          break;
+        default:
+          break;
+      }
     </script>
   </head>
 </html>
