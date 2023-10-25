@@ -3,10 +3,9 @@
     <title>Practical 16</title>
 
     <script>
-
       function countVowels(str) {
         var count = 0;
-        var string = str.toString();
+        var string = str;
 
         for (var i = 0; i <= string.length - 1; i++) {
           if (
@@ -22,7 +21,6 @@
         document.write("There are ", count, " Vowels in String : ", string);
       }
       countVowels(prompt("Enter the String"));
-      
     </script>
   </head>
 </html>
